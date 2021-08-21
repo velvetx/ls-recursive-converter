@@ -18,7 +18,7 @@ class Program:
                                                           'output of "ls -R > filename.txt" to a wordlist for '
                                                           'dirbuster.')
         args_parser.add_argument('-p', '--path', help='Define path to the created file', required=True)
-        args_parser.add_argument('-o', '--outfile', help='Define outfile for result', required=True)
+        args_parser.add_argument('-o', '--outfile', help='Specify the path to save the result', required=True)
         args_parser.add_argument('-f', '--files', help='Parse files', action='store_true')
         args_parser.add_argument('-d', '--directories', help='Parse directories', action='store_true')
         self.args = args_parser.parse_args()
