@@ -27,7 +27,7 @@ And then run:
 
 <h3>Usage:</h3>
 
-`ls-recursive-converter -p [File path] -o [Specify the path to save the result ] -f [Parse files] -d [Parse directories]`
+`ls-recursive-converter -p [File path] -o [Specify the path to save the result] -f [Parse files] -d [Parse directories]`
 
 Help menu:
 * `ls-recursive-converter -h`
