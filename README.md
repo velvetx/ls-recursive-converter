@@ -18,7 +18,7 @@ If you want to use without setup.py, just run:
 * `python3 lsRecursiveConverter.py`
 
 If you want to use with the console command:
-* `python3 setup.py install`
+* `sudo python3 setup.py install`
 
 And then run:
 * `ls-recursive-converter` in terminal.
