@@ -1,14 +1,17 @@
 <h2>ls-recursive-converter</h2>
-_A very simple and lightweight program that converts the output of "ls -R > filename.txt" to a wordlist for dirbuster._ 
+A very simple and lightweight program that converts the output of "ls -R > filename.txt" to a wordlist for dirbuster. 
+
 --------
 
-<h3>_Before use:_</h3>
+<h3>Before use:</h3>
+
 * Use `ls -R > filename.txt` or `ls --recursive > filename.txt`
 on folder with subdirectories.
 
 --------
 
-<h3>_Installation:_</h3>
+<h3>Installation:</h3>
+
 * No requirements needed.
 
 If you want to use without setup.py, just run:
@@ -22,7 +25,7 @@ And then run:
 
 --------
 
-<h3>_Usage:_</h3>
+<h3>Usage:</h3>
 
 `ls-recursive-converter -p [File path] -o [Specify the path to save the result ] -f [Parse files] -d [Parse directories]`
 
@@ -43,7 +46,9 @@ Required:
 `ls-recursive-converter -f [File path] -o [Path to save the result]` - 
 this command creates directory ls-recursive-converter/ at the given path and saves 2 files (files.txt, directories.txt)
 
-<h4>_If you don't want to keep both files:_</h4>
+<h4>If you don't want to keep both files:</h4>
+
 use non-required arguments:
+
 * `-f --files` - for save only files, without directories
 *  `-d --directories` - for save only directories, without files
